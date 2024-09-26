@@ -3,32 +3,36 @@ layout: distill
 title: blank post
 description: post template
 date: 2024-09-26
-disqus_comments: false # make true to add commenting
-featured: true
+disqus_comments: false # set to true to add commenting
+citation: false # set to true for citing posts
+pretty_table: true # for tables
+featured: false
 
 toc: # table of contents
-  - name: Paragraph
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
-  - name: Code
+  - name: Paragraphs
+  - name: Code Blocks
   - name: Links
   - name: Lists
-  - name: Caption
+  - name: Quotes
   - name: Images
   - name: Math
   - name: Dropdowns
-  - name: Mermaid
+  - name: Tables
+  - name: Media
+  - name: Tabs
+  # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
 ---
 
-## Paragraph
+## Paragraphs
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
-## Code
+## Code Blocks
 
 Here's some code:
 {% highlight javascript %}
@@ -62,9 +66,9 @@ And here's a checklist:
 
 ---
 
-## Caption
+## Quotes
 
-Here's a caption:
+Here's a quote:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -76,13 +80,13 @@ Here are some images:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/image.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/image1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/image.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/image2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/image.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/image1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -123,3 +127,33 @@ int main() {
 {% endhighlight %}
 
 {% enddetails %}
+
+---
+
+## Tables
+
+Here's a table:
+
+| left aligned | center aligned | right aligned |
+| :----------- | :------------: | ------------: |
+| left 1       |    center 1    |       right 1 |
+| left 2       |    center 2    |       right 2 |
+| left 3       |    center 3    |       right 3 |
+
+---
+
+## Media
+
+Here's a local video file and a local audio file:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/video.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include audio.liquid path="assets/audio/audio.mp3" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    This is a caption.
+</div>
