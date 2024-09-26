@@ -6,6 +6,7 @@ date: 2024-09-26
 disqus_comments: false # set to true to add commenting
 citation: false # set to true for citing posts
 pretty_table: true # for tables
+prettier: true
 featured: true
 
 toc: # table of contents
@@ -19,7 +20,6 @@ toc: # table of contents
   - name: Dropdowns
   - name: Tables
   - name: Media
-  - name: Tabs
   # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
