@@ -1,12 +1,12 @@
 ---
 layout: distill
 title: blank post
-description: normal post template
+description: post template
 date: 2024-09-26
 disqus_comments: false # set to true to add commenting
 citation: false # set to true for citing posts
 pretty_table: true # for tables
-featured: true
+featured: false
 
 toc: # table of contents
   - name: Paragraphs
