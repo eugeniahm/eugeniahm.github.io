@@ -3,8 +3,8 @@ layout: distill
 title: blank post
 description: post template
 date: 2024-09-26
-featured: true
 disqus_comments: false # make true to add commenting
+featured: true
 
 toc: # table of contents
   - name: Paragraph
