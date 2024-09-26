@@ -21,9 +21,9 @@ toc: # table of contents
   - name: Tables
   - name: Media
   # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
+  # subsections:
+  #   - name: Example Child Subsection 1
+  #   - name: Example Child Subsection 2
 ---
 
 ## Paragraphs
@@ -37,8 +37,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Here's some code:
 {% highlight javascript %}
 int main() {
-    cout << "Hello, world!" << endl;
-    return 0;
+cout << "Hello, world!" << endl;
+return 0;
 }
 {% endhighlight %}
 
@@ -53,12 +53,14 @@ Here's some text with a [link](https://umich.edu/) to the University of Michigan
 ## Lists
 
 Here's a list:
+
 - one
 - two
 - three
 - four
 
 And here's a checklist:
+
 - [ ] Not done
 - [x] Done
   - [ ] Not really
@@ -121,8 +123,8 @@ Additional details, where math $$y = mx + b$$ and code work.
 
 {% highlight javascript %}
 int main() {
-    cout << "Hello, world!" << endl;
-    return 0;
+cout << "Hello, world!" << endl;
+return 0;
 }
 {% endhighlight %}
 
