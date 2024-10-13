@@ -2,7 +2,7 @@
 layout: distill
 title: blank post
 description: post template
-date: 2024-09-26
+date: 2024-10-12
 disqus_comments: false # set to true to add commenting
 citation: false # set to true for citing posts
 pretty_table: true # for tables
