@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-title: portfolio
+title: blog
 nav_order: 1
 pagination:
   enabled: true
