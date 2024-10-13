@@ -2,7 +2,7 @@
 layout: post
 title: Computer
 description: Unwrapped using 3ds Max.
-date: 2024-10-12
+date: 2021-09-10
 disqus_comments: false # set to true to add commenting
 citation: false # set to true for citing posts
 pretty_table: true # for tables
