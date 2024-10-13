@@ -7,7 +7,6 @@ disqus_comments: false # set to true to add commenting
 citation: false # set to true for citing posts
 pretty_table: true # for tables
 featured: true
-
 ---
 
 <div class="row mt-3">
